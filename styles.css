@@ -6,7 +6,11 @@
 }
 
 .container {
-  font-size: 20rem;
+  font-size: 10vw;
+}
+
+body {
+  animation: backgroundChange 2s infinite;
 }
 
 .brady {
@@ -26,4 +30,25 @@ img {
 .arrows {
   margin: 0 auto;
   width: 10rem;
+}
+
+@keyframes backgroundChange {
+  16% {
+    background-color: red;
+  }
+  32% {
+    background-color: orange;
+  }
+  48% {
+    background-color: yellow;
+  }
+  64% {
+    background-color: green;
+  }
+  80% {
+    background-color: blue;
+  }
+  100% {
+    background-color: purple;
+  }
 }
