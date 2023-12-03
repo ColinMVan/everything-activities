@@ -4,3 +4,26 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.container {
+  font-size: 20rem;
+}
+
+.brady {
+  width: 10px;
+  margin: 0 auto;
+  transition: 3s ease-in transform;
+}
+
+img {
+  width: 100%;
+}
+
+.brady:hover {
+  transform: scale(100);
+}
+
+.arrows {
+  margin: 0 auto;
+  width: 10rem;
+}
